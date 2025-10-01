@@ -1,5 +1,5 @@
-# SDET Practical Test Project
-SDET_practical_test
+# Form fields tests practice
+form_fields_tests_practice
 ![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
 ![Selenium](https://img.shields.io/badge/Selenium-4.15.0-green.svg)
 ![Pytest](https://img.shields.io/badge/Pytest-7.4.0-yellow.svg)
@@ -35,9 +35,9 @@ This project automates testing of web forms on [Form Fields](https://practice-au
 - **Chrome Driver** - Chrome browser driver
 
 ## Project Structure
-
+ 
 ```
-SDET_practical_test/
+form_fields_tests_practice/
 ├── other/
 │   └── chromedriver.exe
 ├── pages/
@@ -64,8 +64,8 @@ SDET_practical_test/
 ### Installation Steps
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/IkRyaS/SDET_practical_test.git
-cd SDET_practical_test
+git clone https://github.com/IkRyaS/form_fields_tests_practice.git
+cd form_fields_tests_practice
 ```
 
 2. **Create virtual environment:**
@@ -162,7 +162,7 @@ pytest tests/test_form_with_patterns.py -v
 - **Execution Time:** ~1:44 minutes
 - **Design Patterns Implemented:** Page Object Model, Fluent Interface, Page Factory
 - **Reporting:** Allure Framework
-  <img alt="Отчет" height="750" src="https://github.com/IkRyaS/SDET_practical_test/blob/main/other/result_allure.png?raw=true" width="700"/>
+  <img alt="Отчет" height="750" src="https://github.com/IkRyaS/form_fields_tests_practice/blob/main/other/result_allure.png?raw=true" width="700"/>
 
 ## Test Scenarios
 ### ✅ Positive Tests
